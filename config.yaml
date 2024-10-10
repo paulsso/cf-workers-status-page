@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: hetzner-vps-1 # unique identifier
-    name: workers.cloudflare.com
+    name: hetzner-vps-1
     description: 'You write code. They handle the rest.' # default=empty
     url: '49.12.68.189' # URL to fetch
     method: GET # default=GET
@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: hetzner-vps-2
-    name: www.cloudflare.com
+    name: hetzner-vps-2
     description: 'Built for anything connected to the Internet.'
     url: '162.55.163.216'
     method: GET
