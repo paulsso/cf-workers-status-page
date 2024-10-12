@@ -16,8 +16,8 @@ settings:
 
 monitors:
   - id: hetzner-vps-1 # unique identifier
-    name: hetzner-vps-1
-    description: 'You write code. They handle the rest.' # default=empty
+    name: webarchive-website
+    description: 'Webarchive website, service that archives websites' # default=empty
     url: '49.12.68.189' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -25,8 +25,8 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: hetzner-vps-2
-    name: hetzner-vps-2
-    description: 'Built for anything connected to the Internet.'
+    name: MCS
+    description: 'MCS, backend service to Webarchive website.'
     url: '162.55.163.216'
     method: GET
     expectStatus: 200
