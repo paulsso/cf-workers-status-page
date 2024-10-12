@@ -15,15 +15,6 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: hetzner-vps-1 # unique identifier
-    name: webarchive-website
-    description: 'Webarchive website, service that archives websites' # default=empty
-    url: '49.12.68.189' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
   - id: hetzner-vps-2
     name: MCS
     description: 'MCS, backend service to Webarchive website.'
@@ -33,7 +24,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: webarch
-    name: webarchive
+    name: webarchive-io
     description: 'Webarchive website.'
     url: 'https://webarchive.io/'
     method: GET
